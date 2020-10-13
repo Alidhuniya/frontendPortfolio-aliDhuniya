@@ -460,9 +460,8 @@ letter-spacing: 0.04em;
 .skills__p1 {
 	font-size: 1.25rem;
 	font-weight: 800;
-	padding-bottom: 8rem;
+	padding-bottom: 6rem;
 }
-
 .skills__span {
 	font-weight: 500;
 	font-style: italic;
@@ -501,3 +500,101 @@ letter-spacing: 0.04em;
 }
 }
 
+/* projects */
+
+.projects {
+	margin-left: 7rem;
+	margin-right: 7rem;
+}
+
+.projects__h1 {
+font-weight: bold;
+font-size: 2rem;
+line-height: 40px;
+letter-spacing: 0.04em;
+padding-bottom: 4rem;
+}
+
+.projects__h11 {
+padding-top: 2rem;
+padding-bottom: 2rem;
+font-weight: 600;
+font-size: 1.25rem;
+line-height: 25px;
+letter-spacing: 0.04em;
+}
+
+.projects__desc {
+	width: 508px;
+	font-weight: normal;
+font-size: 1rem;
+line-height: 25px;
+letter-spacing: 0.04em;
+padding-bottom: 2rem;
+}
+
+.projects__tags {
+	display: flex;
+}
+
+.projects__tag {
+font-weight: 800;
+font-size: 1rem;
+line-height: 30px;
+letter-spacing: 0.04em;
+padding-bottom: 1.5rem;
+color: #5C6BC0;
+}
+
+.projects__tag + .projects__tag {
+	margin-left: 1.5rem;
+}
+
+.projects__gets {
+	display: flex;
+	margin-bottom: 2rem;
+}
+
+.projects__get {
+font-weight: 800;
+font-size: 1.25rem;
+line-height: 30px;
+letter-spacing: 0.04em;
+}
+
+.projects__btn {
+	background: #3CECB4;
+    padding: 0.5rem;
+    font-weight: bold;
+    font-size: 1rem;
+    width: 145px;
+    line-height: 20px;
+    text-align: center;
+    letter-spacing: 0.04em;
+	color: #ffffff;
+	margin-left: 1.5rem;
+}
+
+.projects__btn + .projects__btn {
+	margin-left: 2rem;
+}
+
+.projects__live {
+	display: flex;
+	padding-bottom: 2rem;
+}
+
+.projects__liveContent {
+font-weight: 800;
+font-size: 1.25rem;
+
+}
+
+.projects__liveLink {
+	padding-left: 1.5rem;
+}
+
+.projects__liveDemo {
+	padding-left: 1rem;
+	
+}
