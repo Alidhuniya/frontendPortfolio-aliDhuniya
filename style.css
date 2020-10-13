@@ -402,3 +402,96 @@ padding-bottom: 3.5rem;
 }
 }
 
+/* skills */
+
+.skills {
+	margin-left: 7rem;
+	margin-right: 7rem;
+}
+
+.skills__h1 {
+font-weight: bold;
+font-size: 2rem;
+line-height: 40px;
+letter-spacing: 0.04em;
+padding-bottom: 2rem;
+}
+
+.skills__p {
+	font-style: normal;
+    font-weight: 500;
+    max-width: 71ch;
+    font-size: 1.25rem;
+    line-height: 36px;
+    letter-spacing: 0.04em;
+    padding-bottom: 1rem;
+
+}
+
+.skills__blockquote {
+font-style: italic;
+font-weight: 600;
+font-size: 1.25rem;
+line-height: 36px;
+padding-bottom: 2.5rem;
+letter-spacing: 0.04em;
+}
+
+.skills__lists {
+	display: grid;
+	grid-template: repeat(3, 1fr) / repeat(4, 1fr);
+	padding-bottom: 2.5rem;
+}
+
+.skills__list {
+list-style: circle;
+font-weight: 800;
+font-size: 1.25rem;
+line-height: 36px;
+letter-spacing: 0.04em;
+}
+
+.skills__p1 {
+	font-size: 1.25rem;
+	font-weight: 800;
+	padding-bottom: 8rem;
+}
+
+.skills__span {
+	font-weight: 500;
+	font-style: italic;
+}
+
+@media all and (max-width: 1240px) {
+	.skills {
+		margin-left: 1.5rem;
+		margin-right: 1.5rem;
+	}
+}
+
+@media all and (max-width: 960px) {
+	.skills__container {
+		display: flex;
+		flex-direction: column;
+		justify-content:center;
+		align-items:center;
+	}
+
+	
+}
+
+@media all and (max-width: 500px) {
+	.skills__lists {
+		display: grid;
+		grid-template: repeat(4, 1fr) / repeat(2, 1fr);
+		padding-bottom: 2.5rem;
+	}
+}
+
+ @media all and (max-width: 400px) {
+	.skills__p, .skills__p1, .skills__blockquote, .skills__list {
+	font-size: 1rem;
+	line-height: 25px;
+}
+}
+
