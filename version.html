@@ -1,4 +1,12 @@
-html {
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ali Dhuniya - Frontend Portfolio oct 12, 2020</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        html {
 	font-family: "Mulish", sans-serif;
 	margin: 0;
 	padding: 0;
@@ -186,5 +194,53 @@ a {
 	}
 	.header .menu-icon {
 		display: none;
-	}
+    }
+    
+  
 }
+
+.versions {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding-top: 15rem;
+    }
+
+    .versions__a {
+        margin-bottom: 2rem;
+        font-size: 2rem;
+    }
+
+    </style>
+
+</head>
+<body>
+   <!-- navbar -->
+   <nav class="nav">
+   <header class="header">
+    <div class="logo"><a title="versions" class="version" href="./version.html"><span>V 0.2</span></a><span title="github-profile" class="github"><a href="https://github.com/Alidhuniya"><img class="nav-img" src="icons/external-link-alt.svg" alt="github-link" /><span>Github</span></a></div>
+    <input class="menu-btn" type="checkbox" id="menu-btn" />
+    <label class="menu-icon" for="menu-btn"><span class="navicon"></span></label>
+    <ul class="menu">
+      <li><a href="#">Home</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#resume">Resume</a></li>
+      <li><a href="#design">Design</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </header>
+  </nav>
+   <!-- End-navbar -->
+
+   <!-- version.html -->
+
+   <section class="versions">
+    <a class="versions__a" href="./index.html">Current Version 0.2</a>
+    <a class="versions__a" href="https://alidhuniya.github.io/HTMLCSS-Projects/HTMLCSS-Portfolio/htmlcss-dev/">Previous Version 0.1</a>
+   </section>
+
+   <!-- End - version.html -->
+</body>
+</html>
