@@ -23,8 +23,6 @@ a {
 	text-decoration: none;
 }
 
-
-
 /* navbar */
 
 .nav {
@@ -677,7 +675,7 @@ a {
 .doing {
 	margin-left: 7rem;
 	margin-right: 7rem;
-	margin-bottom: 10rem;
+	margin-bottom: 5.5rem;
 }
 .rightContainer__h2 {
 	padding: 5rem 2rem 3rem 0rem;
@@ -722,7 +720,6 @@ a {
 	padding-top: 0.3rem;
 }
 
-
 @media all and (max-width: 1525px) {
 	.rightContainer__card {
 		grid-column-gap: 0.3rem;
@@ -732,7 +729,7 @@ a {
 @media all and (max-width: 1130px) {
 	.doing {
 		margin-left: 1.5rem;
-    margin-right: 1.5rem;
+		margin-right: 1.5rem;
 	}
 }
 
@@ -749,20 +746,69 @@ a {
 @media all and (max-width: 540px) {
 	.doing {
 		margin-left: 0.5;
-    margin-right: 0.5rem;
+		margin-right: 0.5rem;
 	}
 
 	.rightContainer__card1 {
-		
 		width: 320px;
 		height: 200px;
 	}
 }
 
 @media all and (max-width: 360px) {
-
 	.rightContainer__card1 {
 		height: 260px;
 		width: 255px;
+	}
+	.doing {
+		margin-left: 0.3rem;
+		margin-right: 10.3rem;
+	}
+}
+
+/* contact */
+.contact {
+	margin-left: 7rem;
+	margin-right: 7rem;
+}
+
+.contact__h1 {
+	font-weight: bold;
+	font-size: 2rem;
+	line-height: 40px;
+	letter-spacing: 0.04em;
+	padding-bottom: 2.5rem;
+}
+
+.contact__hrf {
+	font-style: italic;
+	font-weight: 300;
+	font-size: 20px;
+	line-height: 25px;
+
+	letter-spacing: 0.04em;
+	border-bottom: 2px solid #000;
+	color: #000000;
+}
+
+.contact__icons {
+	padding-left: 0rem;
+	padding-top: 1.5rem;
+	padding-bottom: 1.7rem;
+}
+
+.contact__blockquote {
+	font-style: italic;
+	font-weight: 600;
+	font-size: 22px;
+	line-height: 28px;
+	letter-spacing: 0.04em;
+	padding-bottom: 2.5rem;
+}
+
+@media all and (max-width: 1240px) {
+	.contact {
+		margin-left: 1.5rem;
+		margin-right: 1.5rem;
 	}
 }
