@@ -23,9 +23,7 @@ a {
 	text-decoration: none;
 }
 
-img {
-	max-width: 100%;
-}
+
 
 /* navbar */
 
@@ -679,6 +677,7 @@ img {
 .doing {
 	margin-left: 7rem;
 	margin-right: 7rem;
+	margin-bottom: 10rem;
 }
 .rightContainer__h2 {
 	padding: 5rem 2rem 3rem 0rem;
@@ -763,7 +762,7 @@ img {
 @media all and (max-width: 360px) {
 
 	.rightContainer__card1 {
-		
+		height: 260px;
 		width: 255px;
 	}
 }
