@@ -208,8 +208,8 @@ a {
 	font-size: 1rem;
 	font-style: normal;
 	font-weight: 700;
-	line-height: 20px;
-	letter-spacing: 0.04em;
+	
+	
 	padding-bottom: 1rem;
 }
 
@@ -221,8 +221,6 @@ a {
 .main__sectionLeft-span1 {
 	font-size: 1.25rem;
 	font-style: normal;
-	line-height: 25px;
-	letter-spacing: 0.04em;
 }
 
 .main__sectionLeft-span {
@@ -242,8 +240,8 @@ a {
 .main__sectionLeftP1 {
 	font-weight: 600;
 	font-size: 1.25rem;
-	line-height: 36px;
-	letter-spacing: 0.04em;
+	
+	
 	max-width: 59ch;
 	padding-bottom: 4rem;
 }
@@ -268,10 +266,10 @@ a {
 	padding: 1.2rem;
 	font-weight: bold;
 	font-size: 1.2rem;
-	line-height: 20px;
+	
 
 	text-align: center;
-	letter-spacing: 0.04em;
+	
 
 	color: #ffffff;
 }
@@ -340,16 +338,16 @@ a {
 	font-style: normal;
 	font-weight: bold;
 	font-size: 2rem;
-	line-height: 36px;
-	letter-spacing: 0.04em;
+	
+	
 	padding-bottom: 2rem;
 }
 
 .about__p {
 	font-weight: 500;
 	font-size: 1.25rem;
-	line-height: 36px;
-	letter-spacing: 0.04em;
+	
+	
 	max-width: 83ch;
 	padding-bottom: 3rem;
 }
@@ -363,8 +361,8 @@ a {
 	max-width: 81ch;
 	font-weight: 500;
 	font-size: 1.25rem;
-	line-height: 36px;
-	letter-spacing: 0.04em;
+	
+	
 	padding-bottom: 3.5rem;
 }
 
@@ -399,7 +397,7 @@ a {
 	.about__p,
 	.about__p1 {
 		font-size: 0.7rem;
-		line-height: 20px;
+		
 	}
 }
 
@@ -413,8 +411,8 @@ a {
 .skills__h1 {
 	font-weight: bold;
 	font-size: 2rem;
-	line-height: 40px;
-	letter-spacing: 0.04em;
+	
+	
 	padding-bottom: 2rem;
 }
 
@@ -423,8 +421,8 @@ a {
 	font-weight: 500;
 	max-width: 71ch;
 	font-size: 1.25rem;
-	line-height: 36px;
-	letter-spacing: 0.04em;
+	
+	
 	padding-bottom: 1rem;
 }
 
@@ -432,9 +430,9 @@ a {
 	font-style: italic;
 	font-weight: 600;
 	font-size: 1.25rem;
-	line-height: 36px;
+	
 	padding-bottom: 2.5rem;
-	letter-spacing: 0.04em;
+	
 }
 
 .skills__lists {
@@ -447,8 +445,8 @@ a {
 	list-style: circle;
 	font-weight: 800;
 	font-size: 1.25rem;
-	line-height: 36px;
-	letter-spacing: 0.04em;
+	
+	
 }
 
 .skills__p1 {
@@ -491,7 +489,7 @@ a {
 	.skills__blockquote,
 	.skills__list {
 		font-size: 1rem;
-		line-height: 25px;
+	
 	}
 }
 
@@ -512,8 +510,8 @@ a {
 .projects__h1 {
 	font-weight: bold;
 	font-size: 2rem;
-	line-height: 40px;
-	letter-spacing: 0.04em;
+	
+	
 	padding-bottom: 4rem;
 }
 
@@ -522,8 +520,8 @@ a {
 	padding-bottom: 2rem;
 	font-weight: 600;
 	font-size: 1.25rem;
-	line-height: 25px;
-	letter-spacing: 0.04em;
+
+	
 	color: #000;
 }
 
@@ -531,9 +529,9 @@ a {
 	width: 508px;
 	font-weight: normal;
 	font-size: 1rem;
-	line-height: 25px;
+
 	color: #000;
-	letter-spacing: 0.04em;
+	
 	padding-bottom: 2rem;
 }
 
@@ -544,8 +542,8 @@ a {
 .projects__tag {
 	font-weight: 800;
 	font-size: 1rem;
-	line-height: 30px;
-	letter-spacing: 0.04em;
+	
+	
 	padding-bottom: 1.5rem;
 	color: #5c6bc0;
 }
@@ -562,8 +560,8 @@ a {
 .projects__get {
 	font-weight: 800;
 	font-size: 1.25rem;
-	line-height: 30px;
-	letter-spacing: 0.04em;
+	
+	
 	color: #000;
 }
 
@@ -573,9 +571,9 @@ a {
 	font-weight: bold;
 	font-size: 1rem;
 	width: 145px;
-	line-height: 20px;
+	
 	text-align: center;
-	letter-spacing: 0.04em;
+	
 	color: #ffffff;
 	margin-left: 1.5rem;
 }
@@ -708,14 +706,14 @@ a {
 .rightContainer__h4 {
 	font-weight: 600;
 	font-size: 1.25rem;
-	line-height: 25px;
-	letter-spacing: 0.04em;
+
+	
 }
 .rightContainer__p1 {
 	font-weight: normal;
 	font-size: 1rem;
-	line-height: 20px;
-	letter-spacing: 0.04em;
+	
+	
 	color: #000000;
 	padding-top: 0.3rem;
 }
@@ -775,8 +773,8 @@ a {
 .contact__h1 {
 	font-weight: bold;
 	font-size: 2rem;
-	line-height: 40px;
-	letter-spacing: 0.04em;
+	
+	
 	padding-bottom: 2.5rem;
 }
 
@@ -784,9 +782,9 @@ a {
 	font-style: italic;
 	font-weight: 300;
 	font-size: 20px;
-	line-height: 25px;
 
-	letter-spacing: 0.04em;
+
+	
 	border-bottom: 2px solid #000;
 	color: #000000;
 }
@@ -801,8 +799,7 @@ a {
 	font-style: italic;
 	font-weight: 600;
 	font-size: 22px;
-	line-height: 28px;
-	letter-spacing: 0.04em;
+	
 	padding-bottom: 2.5rem;
 }
 
