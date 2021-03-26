@@ -672,7 +672,8 @@ a {
 
 @media all and (min-width: 1538px) {
 .projects__container {
-    grid-auto-rows: 2380px;
+    grid-auto-rows: 800px;
+    grid-template-rows: repeat(2,1fr);
 }
 	
 }
