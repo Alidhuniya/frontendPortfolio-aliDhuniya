@@ -1,11 +1,13 @@
 html {
 	font-family: "Mulish", sans-serif;
-	margin: 0 auto;
+	margin: 0;
 	padding: 0;
 	font-size: 16px;
 	scroll-behavior: smooth;
-	max-width: 1538px;
+	max-width: 1537px;
 }
+
+
 
 * {
 	scroll-behavior: smooth;
@@ -14,11 +16,12 @@ html {
 *,
 *::before,
 *::after {
-	margin: 0 auto;
+	margin: 0;
 	padding: 0;
 	border: 0;
 	box-sizing: border-box;
 }
+
 
 a {
 	text-decoration: none;
@@ -670,13 +673,7 @@ a {
 	}
 }
 
-@media all and (min-width: 1538px) {
-.projects__container {
-    grid-auto-rows: 0fr;
-    
-}
-	
-}
+
 
 /* i'm doing */
 .doing {
@@ -818,3 +815,21 @@ a {
 		margin-right: 1.5rem;
 	}
 }
+
+
+
+@media all and (min-width: 1538px) {
+	html, *,
+	*::before,
+	*::after {
+		margin: 0 auto;
+	}
+}
+
+@media all and (min-width: 1538px) {
+	.projects__container {
+		grid-auto-rows: 0fr;
+		
+	}
+		
+	}
