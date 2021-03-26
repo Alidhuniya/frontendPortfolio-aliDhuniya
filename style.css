@@ -670,6 +670,13 @@ a {
 	}
 }
 
+@media all and (min-width: 1538px) {
+.projects__container {
+    grid-auto-rows: 2380px;
+}
+	
+}
+
 /* i'm doing */
 .doing {
 	margin-left: 7rem;
