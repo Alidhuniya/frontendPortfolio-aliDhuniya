@@ -832,3 +832,24 @@ a {
 	}
 		
 	}
+
+	/* courses */
+	.courses {
+		margin-left: 7rem;
+		margin-right: 7rem;
+	}
+
+	.course__list {
+		margin-bottom: 1rem;
+	}
+	.courses__h1 {
+		margin-bottom: 1rem;
+	}
+
+	.courses__h4 {
+		font-size: 1.3rem;
+	}
+
+	.courses__p {
+		font-size: 0.9rem;
+	}
